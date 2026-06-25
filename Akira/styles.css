@@ -610,7 +610,9 @@
 .volume-widget .icon {
     color: var(--text);
     font-family: var(--icons-font);
+    padding-right: 5px;
 }
+
 .audio-menu {
     background-color: var(--background); 
     border: 1px solid var(--border);

@@ -37,3 +37,6 @@ Minimalistic YASB config with several color schemes included.
 ### Tokyo Night
 <img width="3839" height="2159" alt="Screenshot 2026-06-25 222208" src="https://github.com/user-attachments/assets/5cd49640-813e-4f7d-9177-f220516841eb" />
 
+# How to change color scheme
+Open styles.css file and leave uncommented **one** set of variables from "colors" section.
+<img width="1887" height="2050" alt="Screenshot 2026-06-25 223821" src="https://github.com/user-attachments/assets/0cd65d69-8b3d-48ca-abfb-89102854f6de" />

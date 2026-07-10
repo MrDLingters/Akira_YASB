@@ -110,18 +110,6 @@
     --redFlash: #e5e7eb;
     --subtext: #b2b2b2; */
 
-    /* Monochrome Light*/
-    /* --background: #e5e7eb;
-    --background2: #a4a4a4;
-    --accent: #b2b2b2;
-    --text: #18181b;
-    --accentText: #e5e7eb;
-    --hover: #898989;
-    --mutedBG: #a4a4a4;
-    --border: #a4a4a4;
-    --redFlash: #18181b;
-    --subtext: #626262; */
-
     /* Tokyo Night */
     /* --background: #1a1b26;
     --background2: #414868;
@@ -134,14 +122,38 @@
     --redFlash: #f7768e;
     --subtext: #9aa5ce; */
 
+    /* Monochrome Light*/
+    /* --background: #e5e7eb;
+    --background2: #a4a4a4;
+    --accent: #b2b2b2;
+    --text: #18181b;
+    --accentText: #e5e7eb;
+    --hover: #a4a4a4;
+    --mutedBG: #a4a4a4;
+    --border: #a4a4a4;
+    --redFlash: #18181b;
+    --subtext: #626262; */
+
+    /* Monochrome Light RED*/
+    /* --background: #e5e7eb;
+    --background2: #a4a4a4;
+    --accent: #D71921;
+    --text: #18181b;
+    --accentText: #e5e7eb;
+    --hover: #898989;
+    --mutedBG: #a4a4a4;
+    --border: #a4a4a4;
+    --redFlash: #18181b;
+    --subtext: #b2b2b2; */
+
     --icons-font: "Segoe Fluent Icons";
     --icons-font-fallback: "JetBrainsMono NFP", "JetBrainsMono Nerd Font Propo";
-    --system-font: "JetBrainsMono NFP", "JetBrainsMono Nerd Font Propo";
+    --system-font: "Segoe UI Variable", "Segoe UI";
     --specialFont: "Segoe UI Variable", "Segoe UI";
-    --border-radius: 0;
-    --border-radius2: 0;
-    --border-radius3: 0;
-    --border-radiusWallpapers: 0;
+    --border-radius: 16;
+    --border-radius2: 14;
+    --border-radius3: 12;
+    --border-radiusWallpapers: 10;
     --fontSize: 12px;
     --iconSize: 16px;
     --fontSizeLarge: 16px;
@@ -159,9 +171,8 @@
 
 /* Bar */
 .yasb-bar {
-    background-color: var(--background);
+    background-color: transparent;
     padding: 0px 14px;
-    border-top: 1px solid var(--border);
 }
 
 /* Tooltip */
@@ -255,12 +266,11 @@
 
 /* Base Widget Styles */
 .widget {
-    padding-left: 3px;
-    padding-right: 3px;
-    margin: 0px 3px;
+    padding: 0px 10px;
+    margin: 2px 2;
     background-color: var(--background);
     border-radius: var(--border-radius);
-    border: 0px solid var(--border);
+    border: 1px solid var(--border);
 }
 
 .widget .icon {
@@ -273,7 +283,7 @@
 .widget .label {
     color: var(--text);
     font-weight: var(--fontWeight);
-    padding-bottom: 0px;
+    padding-bottom: 2px;
 }
 
 /* Home Menu */
@@ -282,8 +292,6 @@
     font-size: var(--fontSize);
     font-weight: bold;
     color: var(--text);
-    padding-bottom: 2px;
-    padding-right: 4px;
 }
 
 .home-menu {
@@ -302,7 +310,6 @@
 .home-menu .menu-item:hover {
     background-color: var(--hover);
     color: var(--text);
-    /* border: 1px solid var(--border); */
     border-radius: var(--border-radius2);
     margin-left: 15px;
     margin-right: 1px;
@@ -613,7 +620,6 @@
     font-family: var(--icons-font);
     padding-right: 5px;
 }
-
 .audio-menu {
     background-color: var(--background); 
     border: 1px solid var(--border);
@@ -623,13 +629,7 @@
 /* System volume */
 .audio-menu .system-volume-container .volume-slider {
     border: none;
-    background-color: var(--background);
 }
-
-.volume-widget .progress-container {
-    background-color: var(--accent);
-} 
-
 /* Device list styles */
 .audio-menu .audio-container .device {
     background-color:transparent;
@@ -692,7 +692,7 @@
 
 /* Active Windows Title */
 .active-window-widget .icon {
-    padding-right: 10px;
+    padding-right: 4px;
     padding-bottom: 0;
     color: var(--text);
 }
@@ -700,13 +700,11 @@
 /* Komorebi Workspaces */
 /*Style for widget.*/
 .komorebi-workspaces {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 0px 4px;
 }
 
 /*Style for widget container.*/
-.komorebi-workspaces .widget-container {
-}
+.komorebi-workspaces .widget-container {}
 
 /*Style for buttons.*/
 .komorebi-workspaces .ws-btn {
@@ -724,10 +722,9 @@
     padding: 4px 16px;
     padding-left: 10;
     padding-right: 10;
-    background-color: var(--background);
+    background-color: var(--accent);
     border-radius: var(--border-radius2);
-    border-bottom: 1px solid var(--text);
-    color: var(--text);
+    color: var(--accentText);
 } 
 
 
@@ -735,8 +732,7 @@
 .komorebi-active-layout {}
 .komorebi-active-layout .widget-container {}
 .komorebi-active-layout .label {
-    font-family: var(--system-font);
-    padding-bottom: 1px;
+    font-family: var(--specialFont);
 }
 
 /* Komorebi-layout-menu */
@@ -750,7 +746,7 @@
     font-size: var(--fontSize);
     color: var(--text); 
     font-weight: var(--fontWeight);
-    margin: 1 1px;
+    margin: 1 1 1 1px;
 }
 .komorebi-layout-menu .menu-item-icon {
     color: var(--text);
@@ -764,12 +760,12 @@
 
 .komorebi-layout-menu .menu-item:hover {
     background-color: var(--hover);
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius3);
 } 
 
 .komorebi-layout-menu .separator {
     max-height: 1px;
-    background-color: var(--border);
+    background-color: var(--background2);
 }
 
 /* Wallpapers-Widget */
@@ -807,9 +803,11 @@
     background: var(--background);
 }
 .systray .unpinned-visibility-btn {
+    border-radius: 4px;
+    height: 20px;
+    width: 16px;
     border: none;
     outline: none;
-    font-size: var(--fontSizeLarge)
 }
 
 .systray-popup {
@@ -819,11 +817,10 @@
     border: 1px solid var(--border);
 }
 .systray-popup .button {
-    padding: 12px;
+    padding: 10px;
     margin: 0;
     border: 0;
-    border-radius: var(--border-radius);
-    background-color: var(--background);
+    border-radius: 6px;
 }
 .systray-popup .button:hover {
     background-color: var(--hover);
@@ -955,26 +952,26 @@ Example: "Windows Media" becomes "windows-media" */
     max-width: 40px;
     min-height: 40px;
     max-height: 40px;
-    border-radius: 0px;
+    border-radius: 20px;
     color: var(--accent);
-    background-color: transparent;
+    background-color: var(--background2);
 }
 .media-menu .btn.prev {
     margin-left: 10px;
     color: var(--accent);
 }
 .media-menu .btn:hover {
-    color: var(--text);
-    background-color: transparent;
+    color: var(--mutedBG);
+    background-color: var(--accent);
 }
 .media-menu .btn.play {
-    background-color: transparent;
+    background-color: var(--accent);
     font-size: 20px;
-    color: var(--accent);
+    color: var(--accentText);
 }
 .media-menu .btn.disabled:hover {
-    color: var(--text);
-    background-color: transparent;
+    color: var(--accent);
+    background-color: var(--background);
 }
 
 .media-menu .btn.disabled {
@@ -982,8 +979,8 @@ Example: "Windows Media" becomes "windows-media" */
 }
 
 .media-menu .btn.play:hover {
-    background-color: transparent;
-    color: var(--text);
+    background-color: var(--text);
+    color: var(--mutedBG);
 }
 
 .media-menu .playback-time {
@@ -1018,7 +1015,6 @@ Example: "Windows Media" becomes "windows-media" */
 }
 
 /* Language-Widget */
-
 .language-menu {
     background-color: var(--background);
     min-width: 300px;
@@ -1184,75 +1180,3 @@ Example: "Windows Media" becomes "windows-media" */
 	padding-top: 8px;
 }
 
-/* Separator_widget */
-.separator-widget .widget-container .label{
-    color: var(--text);
-    margin-left: -3px;
-    margin-right: -3px;
-}
-
-
-/* Taskbar widget */
-.taskbar-widget .app-container {
-    margin: 4px 2px;
-    border-radius: var(--border-radius);
-    padding: 0 4px;
-    border: 1px solid var(--border);
-}
-.taskbar-widget .app-container.foreground {
-    background-color: var(--background2);
-}
-.taskbar-widget .app-container.flashing {
-    background-color: var(--redFlash);
-}
-
-.taskbar-widget .app-container.flashing .app-title:hover {
-    color: var(--text);
-}
-
-.taskbar-widget .app-container.flashing .app-title {
-    color: var(--text);
-}
-
-.taskbar-widget .app-container.running {
-    background-color: var(--background);
-}
-.taskbar-widget .app-container:hover {
-    background-color: var(--hover);
-}
-.taskbar-widget .app-container .app-title {
-    padding-left: 4px;
-}
-/* Taskbar preview popup is very limited in styling options, do not use margins/paddings here */
-.taskbar-preview {
-    border-radius: var(--border-radius); 
-    background-color: var(--background); 
-    border: 1px solid var(--border);
-}
-.taskbar-preview.flashing { 
-    background-color: var(--background);
-}
-
-.taskbar-preview .header {
-    padding-bottom: 12px;
-    padding-top: 4px;
-}
-.taskbar-preview .header .title {
-    color: var(--text);
-    font-family: var(--system-font);
-    font-weight: var(--fontWeight);
-    font-size: 13px;
-}
-.taskbar-preview .close-button {
-    color: var(--text);
-    font-size: 20px;
-    background-color: transparent;
-    border: none;
-    min-width: 20px;
-    border-radius: var(--border-radius);
-    min-height: 20px;
-}
-.taskbar-preview .close-button:hover {
-    color: var(--background);
-    background-color: var(--redFlash);
-}

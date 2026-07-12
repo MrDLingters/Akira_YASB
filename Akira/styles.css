@@ -27,7 +27,7 @@
     --subtext: #a5adce; */
     
     /* Catppuccin Macchiato */
-    --background: #24273a;
+    /* --background: #24273a;
     --background2: #363a4f;
     --accent: #939ab7;
     --text: #cad3f5;
@@ -36,7 +36,7 @@
     --mutedBG: #1e2030;
     --border: #363a4f;
     --redFlash: #ed8796;
-    --subtext: #a5adcb;
+    --subtext: #a5adcb; */
 
     /* Catppuccin Mocha */
     /* --background: #1e1e2e;
@@ -99,7 +99,7 @@
     --subtext: #9DA9A0; */
 
     /* Monochrome */
-    /* --background: #18181b;
+    --background: #18181b;
     --background2: #3f3f42;
     --accent: #b2b2b2;
     --text: #e5e7eb;
@@ -107,8 +107,8 @@
     --hover: #7a7c7d;
     --mutedBG: #3f3f42;
     --border: #3f3f42;
-    --redFlash: #e5e7eb;
-    --subtext: #b2b2b2; */
+    --redFlash: #7a7c7d;
+    --subtext: #b2b2b2;
 
     /* Monochrome Light*/
     /* --background: #e5e7eb;
@@ -119,7 +119,7 @@
     --hover: #898989;
     --mutedBG: #a4a4a4;
     --border: #a4a4a4;
-    --redFlash: #18181b;
+    --redFlash: #898989;
     --subtext: #626262; */
 
     /* Tokyo Night */

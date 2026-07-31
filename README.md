@@ -37,6 +37,10 @@ i3WM inspired minimalistic bar with several color schemes available in one CSS.
 ### Tokyo Night
 <img width="3839" height="2159" alt="Screenshot 2026-06-25 222208" src="https://github.com/user-attachments/assets/5cd49640-813e-4f7d-9177-f220516841eb" />
 
+### Everforest Dark Hard
+<img width="3839" height="2159" alt="Screenshot 2026-08-01 000011" src="https://github.com/user-attachments/assets/e88bffc4-b416-4d13-98fc-69c35c7b826c" />
+
+
 # How to change color scheme
 ### Open styles.css file in your C:\Users\USERNAME\\.config\yasb and leave uncommented **ONE** set of variables from "colors" section. Here's a [quick guide video](https://youtu.be/PFH5lKwJ9Dw?si=jJ6s-vyxm7ZkIhD5).
 <img width="1887" height="2050" alt="Screenshot 2026-06-25 223821" src="https://github.com/user-attachments/assets/0cd65d69-8b3d-48ca-abfb-89102854f6de" />

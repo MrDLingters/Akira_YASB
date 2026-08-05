@@ -40,6 +40,10 @@ i3WM inspired minimalistic bar with several color schemes available in one CSS.
 ### Everforest Dark Hard
 <img width="3839" height="2159" alt="Screenshot 2026-08-01 000011" src="https://github.com/user-attachments/assets/e88bffc4-b416-4d13-98fc-69c35c7b826c" />
 
+### Nord
+<img width="3839" height="2159" alt="Screenshot 2026-08-04 131117" src="https://github.com/user-attachments/assets/a1d756fb-7d48-4738-8c51-dfc5d7336817" />
+
+
 
 # How to change color scheme
 ### Open styles.css file in your C:\Users\USERNAME\\.config\yasb and leave uncommented **ONE** set of variables from "colors" section. Here's a [quick guide video](https://youtu.be/PFH5lKwJ9Dw?si=jJ6s-vyxm7ZkIhD5).

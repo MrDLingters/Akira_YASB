@@ -127,13 +127,13 @@
     /* Monochrome Light*/
     /* --background: #e5e7eb;
     --background2: #a4a4a4;
-    --accent: #b2b2b2;
+    --accent: #2f2f36;
     --text: #18181b;
     --accentText: #e5e7eb;
-    --hover: #898989;
+    --hover: #919090;
     --mutedBG: #a4a4a4;
     --border: #a4a4a4;
-    --redFlash: #898989;
+    --redFlash: #18181b;
     --subtext: #4B565C; */
 
     /* Tokyo Night */
@@ -163,9 +163,9 @@
     /* Nord */
     /* --background: #2e3440;
     --background2: #434c5e;
-    --accent: #4c566a;
+    --accent: #ebcb8b;
     --text: #d8dee9;
-    --accentText: #d8dee9;
+    --accentText: #2e3440;
     --hover: #4c566a;
     --mutedBG: #3b4252;
     --border: #434c5e;

@@ -1,48 +1,55 @@
 # Akira
 i3WM inspired minimalistic bar with several color schemes available in one CSS.
+<img width="3837" height="58" alt="image" src="https://github.com/user-attachments/assets/68f15556-b0ed-49f4-9ef0-4266e2b4cb42" />
 
-<img width="3839" height="2159" alt="Screenshot 2026-08-04 130913" src="https://github.com/user-attachments/assets/67d059df-d376-4be9-a154-f1b2768ade10" />
-
+## Preview
+<img width="3839" height="2159" alt="Screenshot 2026-09-13 004129" src="https://github.com/user-attachments/assets/893e83d9-9b24-4c18-9f92-17eaf53c1689" />
 
 # Color schemes
 ### Catppuccin Mocha
-<img width="3839" height="2159" alt="Screenshot 2026-06-25 221059" src="https://github.com/user-attachments/assets/67c45bbb-7435-4a15-9362-361c3cfc0ef8" />
+<img width="3837" height="2157" alt="Screenshot 2026-09-13 002040" src="https://github.com/user-attachments/assets/4b7b29a7-b809-4fcc-b022-64ec03685411" />
 
 ### Catppuccin Macchiato
-<img width="3839" height="2159" alt="Screenshot 2026-06-25 221121" src="https://github.com/user-attachments/assets/d6c9ba54-bee1-4f69-856c-1270c5d37df6" />
+<img width="3839" height="2159" alt="Screenshot 2026-09-13 002005" src="https://github.com/user-attachments/assets/e55c11b6-0495-464e-b772-767b0668dad2" />
 
 ### Catppuccin Frappé
-<img width="3839" height="2159" alt="Screenshot 2026-06-25 221207" src="https://github.com/user-attachments/assets/b14f367d-7bf9-4da8-bd7f-8be24c4368f2" />
+<img width="3839" height="2159" alt="Screenshot 2026-09-13 001827" src="https://github.com/user-attachments/assets/2a0658fa-91ba-40b6-8f32-3c1369a74028" />
 
 ### Catppuccin Latte
-<img width="3839" height="2159" alt="Screenshot 2026-06-25 221317" src="https://github.com/user-attachments/assets/d51b0cf6-14ee-40ea-9d75-3ff47ec8f00c" />
+<img width="3838" height="2157" alt="Screenshot 2026-09-13 001619" src="https://github.com/user-attachments/assets/0bc6b535-0497-4c07-91e6-369b99143630" />
 
 ### Gruvbox Material Dark Soft
-<img width="3839" height="2159" alt="Screenshot 2026-06-25 221439" src="https://github.com/user-attachments/assets/2a73a659-d4d7-4ba1-8c9b-38d5982f5bd7" />
+<img width="3839" height="2159" alt="Screenshot 2026-09-13 002158" src="https://github.com/user-attachments/assets/b2fa4148-a825-4677-9ef1-d2ab9e1e4621" />
 
 ### Your Lie In April
-<img width="3839" height="2159" alt="Screenshot 2026-06-25 221606" src="https://github.com/user-attachments/assets/17c26925-3299-4877-9b43-0d667a805e20" />
+<img width="3839" height="2159" alt="Screenshot 2026-09-13 002304" src="https://github.com/user-attachments/assets/611558c5-e64a-4899-8378-953020a04650" />
 
 ### Sousou no Frieren
-<img width="3839" height="2159" alt="Screenshot 2026-06-25 221730" src="https://github.com/user-attachments/assets/c9a51e88-5fed-4aa0-97c1-8c4f12b50a42" />
+<img width="3839" height="2159" alt="Screenshot 2026-09-13 002637" src="https://github.com/user-attachments/assets/698f09b4-0780-4f62-b0f4-82902f0610c1" />
 
 ### Everforest Dark Soft
-<img width="3839" height="2159" alt="Screenshot 2026-06-25 221811" src="https://github.com/user-attachments/assets/8b678cfd-82d7-41f3-a405-74a134580803" />
+<img width="3839" height="2159" alt="Screenshot 2026-09-13 002803" src="https://github.com/user-attachments/assets/82074e60-7d68-48d0-9831-5fb8cc12cdfe" />
+
 
 ### Monochrome
-<img width="3839" height="2159" alt="Screenshot 2026-06-25 222036" src="https://github.com/user-attachments/assets/e25efe80-518a-43e8-845b-7ae86008107a" />
+<img width="3839" height="2159" alt="Screenshot 2026-09-13 002923" src="https://github.com/user-attachments/assets/55f29943-e778-4d44-97c8-8bc6a738cdd7" />
+
 
 ### Monochrome Light
-<img width="3839" height="2159" alt="Screenshot 2026-06-25 222103" src="https://github.com/user-attachments/assets/bdc00284-80e1-47e7-b29c-f851a9871f61" />
+<img width="3839" height="2159" alt="Screenshot 2026-09-13 003205" src="https://github.com/user-attachments/assets/dbc5ba88-2f62-4f8e-83b5-ea8baa1c11bc" />
 
 ### Tokyo Night
-<img width="3839" height="2159" alt="Screenshot 2026-06-25 222208" src="https://github.com/user-attachments/assets/5cd49640-813e-4f7d-9177-f220516841eb" />
+<img width="3839" height="2159" alt="Screenshot 2026-09-13 003242" src="https://github.com/user-attachments/assets/965a4592-14d6-41b7-8b65-419b4fdf07d6" />
 
 ### Everforest Dark Hard
-<img width="3839" height="2159" alt="Screenshot 2026-08-01 000011" src="https://github.com/user-attachments/assets/e88bffc4-b416-4d13-98fc-69c35c7b826c" />
+<img width="3839" height="2159" alt="Screenshot 2026-09-13 003322" src="https://github.com/user-attachments/assets/34042de2-7325-4b1d-81e8-5f7c7007359f" />
 
 ### Nord
-<img width="3839" height="2159" alt="Screenshot 2026-08-04 131117" src="https://github.com/user-attachments/assets/a1d756fb-7d48-4738-8c51-dfc5d7336817" />
+<img width="3839" height="2159" alt="Screenshot 2026-09-13 003728" src="https://github.com/user-attachments/assets/f597fee2-5efc-4f13-a696-b93281ee2098" />
+
+### Kanagawa Wave
+<img width="3838" height="2159" alt="Screenshot 2026-09-13 003831" src="https://github.com/user-attachments/assets/144705ca-afa5-4c90-8aa0-b892052eec01" />
+
 
 
 

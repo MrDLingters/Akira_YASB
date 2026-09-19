@@ -647,8 +647,9 @@
 
 .volume-widget .icon {
     color: var(--text);
-    font-family: var(--icons-font);
+    font-family: var(--icons-font-fallback);
     padding-right: 5px;
+    padding-top: 1px;
 }
 
 .audio-menu {

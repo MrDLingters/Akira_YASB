@@ -1,5 +1,5 @@
 # Akira
-i3WM inspired minimalistic bar with several color schemes available in one CSS.
+### i3WM inspired minimalistic bar with several color schemes available in one CSS.
 This theme using bottom placement so it should be used with hidden Windows taskbar. I recommend to use [THide](https://github.com/amnweb/thide) for it.
 <img width="3837" height="58" alt="image" src="https://github.com/user-attachments/assets/68f15556-b0ed-49f4-9ef0-4266e2b4cb42" />
 
